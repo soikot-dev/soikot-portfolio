@@ -1,0 +1,41 @@
+﻿# Node.js dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Tailwind CSS generated files (optional: keep if manually compiled)
+*.css
+
+# Build / output directories
+build/
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Serverless functions (Next.js)
+.next/serverless/
