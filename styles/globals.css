@@ -1,0 +1,26 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bodyBg; /* Custom Tailwind color */
+}
+
+.company-logos {
+  display: flex;
+  animation: slide 30s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
