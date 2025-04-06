@@ -54,7 +54,7 @@ const Testimonials = () => {
               <img src="/images/client2.jpg" alt="Client 2" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
               <div>
                 <p className="text-gray-400 mb-4 text-sm sm:text-base">
-                  "Great financial advice that changed the way I handle my investments."
+                "Financial planners help people understand how to invest and save money efficiently."
                 </p>
                 <p className="font-semibold">Liana Marie</p>
                 <p className="text-gray-500">Lead Designer Meta</p>
@@ -70,7 +70,7 @@ const Testimonials = () => {
               <img src="/images/client3.jpg" alt="Client 3" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
               <div>
                 <p className="text-gray-400 mb-4 text-sm sm:text-base">
-                  "Very professional and insightful advice that helped me grow my business."
+                "Financial planners help people understand how to invest and save money efficiently."
                 </p>
                 <p className="font-semibold">Emily Davis</p>
                 <p className="text-gray-500">CFO & Founder Z</p>
@@ -86,7 +86,7 @@ const Testimonials = () => {
               <img src="/images/client4.jpg" alt="Client 4" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
               <div>
                 <p className="text-gray-400 mb-4 text-sm sm:text-base">
-                  "Their strategies helped me make better financial decisions."
+                "Financial planners help people understand how to invest and save money efficiently."
                 </p>
                 <p className="font-semibold">James Brown</p>
                 <p className="text-gray-500">Founder & CEO A</p>

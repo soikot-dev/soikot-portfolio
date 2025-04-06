@@ -22,7 +22,7 @@ const AboutPage = () => {
   </div>
 
   {/* About Details Section */}
-  <div className="md:ml-8 bg-greyBg text-white p-6 sm:p-10 lg:p-12 rounded-xl shadow-lg text-center sm:text-left flex-1 flex flex-col justify-center">
+  <div className="bg-greyBg text-white p-6 sm:p-10 lg:p-12 rounded-xl shadow-lg text-center sm:text-left flex-1 flex flex-col justify-center">
     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-3 sm:mb-4 leading-tight">
       I’m Bentos Walker, a Product Designer.
     </h2>

@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const router = useRouter();
 
   const toggleMenu = () => {
@@ -17,10 +18,10 @@ const Header = () => {
 
   const isActive = (path) => router.pathname === path;
 
-  // Show "scroll to top" button when scrolled down
   useEffect(() => {
     const handleScroll = () => {
-      setShowScrollTop(window.scrollY > 300);
+      setIsScrolled(window.scrollY > 50); // Change background color after 50px scroll
+      setShowScrollTop(window.scrollY > 300); // Show "Scroll to Top" button after 300px scroll
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -33,8 +34,14 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-black text-white p-6 shadow-md">
-        <div className="container mx-auto flex justify-between items-center px-6 md:px-12">
+      <header
+        className={`w-full sticky top-0 z-50 text-white transition-all duration-500 ease-in-out ${
+          isScrolled
+            ? 'bg-black shadow-md py-4' // Black background when scrolled
+            : 'bg-black/60 py-6' // Transparent black background when not scrolled
+        }`}
+      >
+        <div className="container mx-auto flex justify-between items-center px-6 md:px-12 transition-all duration-500">
           <h1 className="text-2xl font-bold">Bentos</h1>
 
           <button
