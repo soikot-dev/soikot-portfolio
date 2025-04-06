@@ -7,20 +7,17 @@ body {
   @apply bg-bodyBg; /* Custom Tailwind color */
 }
 
-.company-logos {
-  display: flex;
-  animation: slide 30s linear infinite;
-}
-
-@keyframes slide {
+@keyframes scroll-marquee {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
-.overflow-hidden {
-  overflow: hidden;
+.marquee-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll-marquee 20s linear infinite;
 }
