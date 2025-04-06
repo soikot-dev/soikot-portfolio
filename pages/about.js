@@ -13,7 +13,7 @@ const AboutPage = () => {
       {/* Header Section */}
       <Header />
 
-      <div id="about" className="container mx-auto px-6 sm:px-8 lg:px-16 py-10">
+      <div id="about" className="container mx-auto px-6 sm:px-8 lg:px-10 py-10">
         {/* Profile and About Details Section */}
 <div className="flex flex-col md:flex-row gap-8 mb-20 items-stretch">
   {/* Profile Section */}
