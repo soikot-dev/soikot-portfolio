@@ -27,9 +27,6 @@ Thumbs.db
 package-lock.json
 yarn.lock
 
-# Tailwind CSS generated files (optional: keep if manually compiled)
-*.css
-
 # Build / output directories
 build/
 dist/

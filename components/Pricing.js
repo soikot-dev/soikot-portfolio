@@ -25,7 +25,7 @@ const PricingSection = () => {
           </div>
 
           {/* Standard Plan */}
-          <div className="border border-gray-600 p-6 sm:p-8 rounded-xl shadow-xl text-left bg-gray-800">
+          <div className="border border-gray-600 p-6 sm:p-8 rounded-xl shadow-xl text-left">
             <h3 className="text-2xl font-semibold mb-4">Standard</h3>
             <p className="text-lg mb-4">Don’t have any design? Leave it to me</p>
             <p className="text-2xl font-bold mb-6">$59/Hour</p>

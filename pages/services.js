@@ -22,11 +22,9 @@ const ServicePage = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="my-6 sm:my-12 flex justify-center">
-            <div className="w-full max-w-4xl"> {/* Ensures proper width and centering */}
-              <CTA />
-            </div>
-          </div>
+          <div className="mt-20"> 
+                    <CTA />
+                  </div>
 
           {/* Footer Section */}
           <Footer />
