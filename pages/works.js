@@ -12,13 +12,6 @@ const WorksPage = () => {
 
       {/* Works & Projects Section */}
       <div className="container mx-auto p-6 sm:p-10">
-        <div className="text-center sm:text-start mb-16">
-          <h2 className="text-5xl font-semibold mb-4">Works & Projects</h2>
-          <p className="text-lg text-gray-300 leading-relaxed">
-            Check out some of my design projects, meticulously crafted with love and dedication,  
-            each one reflecting the passion and soul I poured into every detail.
-          </p>
-        </div>
 
         {/* Projects Section */}
         <Projects />

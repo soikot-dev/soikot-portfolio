@@ -10,6 +10,8 @@ const CTA = () => {
         Reach out and let's make it happen ✨. I'm also available for full-time or Part-time opportunities to push
         <br /> the boundaries of design and deliver exceptional work.
       </p>
+
+      
       <button className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors duration-300">
         Let's Talk
       </button>

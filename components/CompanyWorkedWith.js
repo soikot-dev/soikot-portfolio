@@ -10,7 +10,7 @@ const logos = [
 
 const CompanyWorkedWith = () => {
   return (
-    <section className="bg-greyBg text-white p-10 sm:p-20 rounded-xl shadow-lg w-full">
+    <section className="bg-greyBg text-white p-6 sm:p-20 rounded-xl shadow-lg w-full">
       <h3 className="text-3xl font-semibold mb-4 text-center sm:text-left">
         Companies I Worked With
       </h3>
@@ -23,7 +23,7 @@ const CompanyWorkedWith = () => {
               key={index}
               src={logo}
               alt={`Company ${index}`}
-              className="w-16 sm:w-16 h-12 sm:h-16 mx-6 flex-shrink-0"
+              className="w-20 sm:w-16 h-12 sm:h-16 mx-6 flex-shrink-0"
             />
           ))}
         </div>
