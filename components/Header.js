@@ -73,9 +73,7 @@ const Header = () => {
           <div className="hidden md:flex flex-none">
             <Link href="/contact">
               <button
-                className={`bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition-all duration-300 ${
-                  isActive('/contact') ? 'ring-2 ring-white' : ''
-                }`}
+                className={`bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-600 transition-all duration-300 `}
                 aria-label="Hire Me"
               >
                 Hire Me
