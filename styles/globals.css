@@ -7,17 +7,24 @@ body {
   @apply bg-bodyBg; /* Custom Tailwind color */
 }
 
-@keyframes scroll-marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+.marquee-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
 }
 
 .marquee-track {
   display: flex;
-  width: fit-content;
-  animation: scroll-marquee 20s linear infinite;
+  align-items: center;
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }

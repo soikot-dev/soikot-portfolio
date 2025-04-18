@@ -17,15 +17,22 @@ const CompanyWorkedWith = () => {
 
       {/* Marquee container */}
       <div className="overflow-hidden w-full mt-6 sm:mt-10">
-        <div className="marquee-track flex">
-          {[...logos, ...logos, ...logos].map((logo, index) => (
-            <img
-              key={index}
-              src={logo}
-              alt={`Company ${index}`}
-              className="w-20 sm:w-16 h-12 sm:h-16 mx-6 flex-shrink-0"
-            />
-          ))}
+        <div className="marquee-wrapper">
+          <div className="marquee-track flex">
+            {[...logos, ...logos].map((logo, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 mx-8 h-20 sm:h-16"
+                style={{ width: 'calc(20% - 1rem)' }} // Show 4 logos at once
+              >
+                <img
+                  src={logo}
+                  alt={`Logo of company ${index + 1}`}
+                  className="w-full h-full object-contain opacity-90 transition-opacity hover:opacity-100"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
