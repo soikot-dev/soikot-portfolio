@@ -12,22 +12,22 @@ const Profile = () => {
         
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
            className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/facebook.png" alt="Facebook" className="w-6 h-6" />
+          <img src="/logos/facebook.png" alt="Facebook" className="w-6 h-6 filter grayscale  transition duration-300" />
         </a>
 
        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
            className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/twteer.png" alt="Twitter" className="w-6 h-6" />
+          <img src="/logos/twteer.png" alt="Twitter" className="w-6 h-6 filter grayscale  transition duration-300"/>
         </a>
 
          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
            className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/linkdine.png" alt="LinkedIn" className="w-6 h-6" />
+          <img src="/logos/linkdine.png" alt="LinkedIn" className="w-6 h-6 filter grayscale  transition duration-300"/>
         </a>
 
          <a href="https://github.com" target="_blank" rel="noopener noreferrer"
            className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/github.png" alt="GitHub" className="w-6 h-6" />
+          <img src="/logos/github.png" alt="GitHub" className="w-6 h-6 filter grayscale  transition duration-300"/>
         </a>
         
       </div>

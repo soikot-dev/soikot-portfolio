@@ -20,8 +20,8 @@ const Projects = () => {
 
   return (
     <section className="container mx-auto text-white p-6 sm:p-8 mt-8 rounded-xl">
-      <h3 className="text-5xl font-semibold mb-4">Works & Projects</h3>
-      <p className="mb-6 text-xl">Check out some of my design projects, meticulously crafted with love and dedication.</p>
+      <h3 className="text-5xl font-semibold mb-4 text-center">Works & Projects</h3>
+      <p className="mb-6 text-xl text-center pb-6 pt-6">Check out some of my design projects, meticulously crafted with love <br></br> and dedication, each one reflecting the passion and soul I poured into every <br></br> detail.</p>
 
       {/* Category Tabs */}
       <div className="mb-8 flex flex-wrap gap-4 justify-center lg:justify-start">
