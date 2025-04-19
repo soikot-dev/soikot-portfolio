@@ -1,4 +1,5 @@
 import React from "react";
+import { FiDownload } from 'react-icons/fi';
 
 const Hero = () => {
   return (
@@ -14,11 +15,17 @@ const Hero = () => {
         <span className="w-3 h-3 bg-green-400 rounded-full"></span>
         <span>Available for Freelancing</span>
       </p>
+
       <div className="p-4 sm:p-5 flex justify-center sm:justify-start w-full">
-        <button className="bg-red-500 text-white px-5 sm:px-6 py-3 mt-6 rounded-lg hover:bg-red-600 transition-colors duration-300 text-sm sm:text-base w-full sm:w-auto">
-          Download CV
-        </button>
+          <a href="/files/my-resume.pdf" target="_blank" rel="noopener noreferrer">
+            <button className="bg-red-500 text-white border-2 border-transparent px-5 sm:px-6 py-3 mt-6 rounded-lg hover:bg-transparent hover:border-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base w-full sm:w-auto flex items-center justify-center">
+              Download CV
+              <FiDownload className="ml-2 h-5 w-5" />
+            </button>
+          </a>
       </div>
+
+
     </section>
   );
 };

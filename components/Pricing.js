@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaArrowRight } from 'react-icons/fa';
 
 const PricingSection = () => {
   return (
@@ -10,16 +11,25 @@ const PricingSection = () => {
           {/* Basic Plan */}
           <div className="border border-gray-600 p-6 sm:p-8 rounded-xl shadow-xl text-left">
             <h3 className="text-2xl font-semibold mb-4">Basic</h3>
-            <p className="text-lg mb-4">Have design ready to build? Or small budget</p>
+            <p className="text-lg mb-4">Have design ready to build?</p>
             <p className="text-2xl font-bold mb-6">$15/Hour</p>
+            
             <ul className="mb-6 space-y-2">
-              <li>Need your wireframe</li>
-              <li>Design with Figma, Framer</li>
-              <li>Product Design</li>
-              <li>Digital Marketing</li>
-              <li>Custom Support</li>
+              {[
+                'Need your wireframe',
+                'Design with Figma, Framer',
+                'Product Design',
+                'Digital Marketing',
+                'Custom Support',
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-2 text-gray-200">
+                  <FaArrowRight className="text-red-500" />
+                  {item}
+                </li>
+              ))}
             </ul>
-            <button className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-all">
+
+            <button className="bg-red-500 text-white border-2 border-transparent px-5 sm:px-6 py-3 mt-6 rounded-lg hover:bg-transparent hover:border-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base w-full sm:w-auto flex items-center justify-center">
               Order Now
             </button>
           </div>
@@ -30,13 +40,20 @@ const PricingSection = () => {
             <p className="text-lg mb-4">Don’t have any design? Leave it to me</p>
             <p className="text-2xl font-bold mb-6">$59/Hour</p>
             <ul className="mb-6 space-y-2">
-              <li>Website Design</li>
-              <li>Mobile Apps Design</li>
-              <li>Product Design</li>
-              <li>Digital Marketing</li>
-              <li>Custom Support</li>
+              {[
+                'Website Design',
+                'Mobile Apps Design',
+                'Product Design',
+                'Digital Marketing',
+                'Custom Support',
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-2 text-gray-200">
+                  <FaArrowRight className="text-red-500" />
+                  {item}
+                </li>
+              ))}
             </ul>
-            <button className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-all">
+            <button className="bg-red-500 text-white border-2 border-transparent px-5 sm:px-6 py-3 mt-6 rounded-lg hover:bg-transparent hover:border-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base w-full sm:w-auto flex items-center justify-center">
               Order Now
             </button>
           </div>
@@ -47,13 +64,20 @@ const PricingSection = () => {
             <p className="text-lg mb-4">Complete end-to-end solutions</p>
             <p className="text-2xl font-bold mb-6">$99/Hour</p>
             <ul className="mb-6 space-y-2">
-              <li>Website & App Development</li>
-              <li>UI/UX Consultation</li>
-              <li>Brand Strategy</li>
-              <li>SEO & Marketing</li>
-              <li>24/7 Priority Support</li>
+              {[
+                'Website & App Development',
+                'UI/UX Consultation',
+                'Brand Strategy',
+                'SEO & Marketing',
+                '24/7 Priority Support',
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-2 text-gray-200">
+                  <FaArrowRight className="text-red-500" />
+                  {item}
+                </li>
+              ))}
             </ul>
-            <button className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-red-700 transition-all">
+            <button className="bg-red-500 text-white border-2 border-transparent px-5 sm:px-6 py-3 mt-6 rounded-lg hover:bg-transparent hover:border-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base w-full sm:w-auto flex items-center justify-center">
               Order Now
             </button>
           </div>

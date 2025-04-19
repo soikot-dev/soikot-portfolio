@@ -12,8 +12,8 @@ const ServiceSection = () => {
             <div className="mb-6">
               <FaPalette className="text-orange-500 text-5xl mx-auto sm:mx-0" />
             </div>
-            <h3 className="text-2xl font-semibold mb-3">Brand Identity Design</h3>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <h3 className="text-2xl font-semibold text-left mb-3">Brand Identity Design</h3>
+            <p className="text-lg text-gray-300 leading-relaxed text-left">
               Bentos gives you the blocks & kits you need to create a true website within minutes.
             </p>
           </div>
@@ -23,8 +23,8 @@ const ServiceSection = () => {
             <div className="mb-6">
               <FaGlobe className="text-orange-500 text-5xl mx-auto sm:mx-0" />
             </div>
-            <h3 className="text-2xl font-semibold mb-3">Website Design</h3>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <h3 className="text-2xl font-semibold mb-3 text-left">Website Design</h3>
+            <p className="text-lg text-gray-300 leading-relaxed text-left">
               Bentos gives you the blocks & kits you need to create a true website within minutes.
             </p>
           </div>
@@ -34,8 +34,8 @@ const ServiceSection = () => {
             <div className="mb-6">
               <FaMobileAlt className="text-orange-500 text-5xl mx-auto sm:mx-0" />
             </div>
-            <h3 className="text-2xl font-semibold mb-3">Application Design</h3>
-            <p className="text-lg text-gray-300 leading-relaxed">
+            <h3 className="text-2xl font-semibold mb-3 text-left">Application Design</h3>
+            <p className="text-lg text-gray-300 leading-relaxed text-left">
               Bentos gives you the blocks & kits you need to create a true website within minutes.
             </p>
           </div>

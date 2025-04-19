@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaFacebookF, FaXTwitter, FaLinkedinIn } from 'react-icons/fa6';
 
 const Profile = () => {
   return (
@@ -10,24 +11,40 @@ const Profile = () => {
       <p className="text-lg text-gray-400 mt-2 text-center mt-6">I am a Web Designer based in Dhaka Bangladesh.</p>
       <div className="mt-6 flex space-x-6">
         
-      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
-           className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/facebook.png" alt="Facebook" className="w-6 h-6 filter grayscale  transition duration-300" />
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg text-gray-500 hover:text-red-500 transition duration-300"
+          >
+            <FaFacebookF className="w-6 h-6" />
         </a>
 
-       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
-           className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/twteer.png" alt="Twitter" className="w-6 h-6 filter grayscale  transition duration-300"/>
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg text-gray-500 hover:text-red-500 transition duration-300"
+        >
+          <FaXTwitter className="w-6 h-6" />
         </a>
 
-         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
-           className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/linkdine.png" alt="LinkedIn" className="w-6 h-6 filter grayscale  transition duration-300"/>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg text-gray-500 hover:text-red-500 transition duration-300"
+        >
+          <FaLinkedinIn className="w-6 h-6" />
         </a>
 
-         <a href="https://github.com" target="_blank" rel="noopener noreferrer"
-           className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg hover:bg-gray-700 transition-colors duration-300">
-          <img src="/logos/github.png" alt="GitHub" className="w-6 h-6 filter grayscale  transition duration-300"/>
+        <a
+          href="https://github.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 flex items-center justify-center border border-gray-500 rounded-lg text-gray-500 hover:text-red-500 transition duration-300"
+        >
+          <FaGithub className="w-6 h-6" />
         </a>
         
       </div>

@@ -12,9 +12,12 @@ const CTA = () => {
       </p>
 
       
-      <button className="bg-red-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 transition-colors duration-300">
-        Let's Talk
-      </button>
+      <div className="w-full flex justify-center">
+        <button className="bg-red-500 text-white border-2 border-transparent px-5 sm:px-6 py-3 mt-6 rounded-lg hover:bg-transparent hover:border-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base w-full sm:w-auto flex items-center">
+          Let's Talk
+        </button>
+      </div>
+
     </section>
   );
 };

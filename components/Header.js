@@ -117,16 +117,18 @@ const Header = () => {
                 </Link>
               ))}
             </div>
-            <div className="py-4 px-6">
-              <button
-                className={`bg-red-500 text-white w-full py-3 rounded-lg hover:bg-red-600 transition-all duration-300 ${
-                  isActive('/contact') ? 'ring-2 ring-white' : ''
-                }`}
-                aria-label="Hire Me"
-              >
-                Hire Me
-              </button>
-            </div>
+            <div className="py-4 px-6 flex justify-center">
+          <button
+            className="bg-red-500 text-white border-2 border-transparent px-5 sm:px-6 py-3 mt-6 rounded-lg 
+                      hover:bg-transparent hover:border-gray-500 hover:text-white 
+                      transition-all duration-300 text-sm sm:text-base w-full sm:w-auto 
+                      flex items-center justify-center"
+            aria-label="Hire Me"
+          >
+            Hire Me
+          </button>
+        </div>
+
           </div>
         )}
       </header>

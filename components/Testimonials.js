@@ -35,7 +35,7 @@ const Testimonials = () => {
         <div className="p-2 sm:p-4">
           <div className="border border-gray-600 p-4 sm:p-6 rounded-xl shadow-lg text-center sm:text-left">
             <div className="flex flex-col sm:flex-row items-center sm:items-start">
-              <img src="/images/client1.jpg" alt="Client 1" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
+              <img src="/images/author1.jpg" alt="Client 1" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
               <div>
                 <p className="text-gray-400 mb-4 text-sm sm:text-base">
                   "Financial planners help people understand how to invest and save money efficiently."
@@ -51,7 +51,7 @@ const Testimonials = () => {
         <div className="p-2 sm:p-4">
           <div className="border border-gray-600 p-4 sm:p-6 rounded-xl shadow-lg text-center sm:text-left">
             <div className="flex flex-col sm:flex-row items-center sm:items-start">
-              <img src="/images/client2.jpg" alt="Client 2" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
+              <img src="/images/author2.jpg" alt="Client 2" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
               <div>
                 <p className="text-gray-400 mb-4 text-sm sm:text-base">
                 "Financial planners help people understand how to invest and save money efficiently."
@@ -67,7 +67,7 @@ const Testimonials = () => {
         <div className="p-2 sm:p-4">
           <div className="border border-gray-600 p-4 sm:p-6 rounded-xl shadow-lg text-center sm:text-left">
             <div className="flex flex-col sm:flex-row items-center sm:items-start">
-              <img src="/images/client3.jpg" alt="Client 3" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
+              <img src="/images/author1.jpg" alt="Client 3" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
               <div>
                 <p className="text-gray-400 mb-4 text-sm sm:text-base">
                 "Financial planners help people understand how to invest and save money efficiently."
@@ -83,7 +83,7 @@ const Testimonials = () => {
         <div className="p-2 sm:p-4">
           <div className="border border-gray-600 p-4 sm:p-6 rounded-xl shadow-lg text-center sm:text-left">
             <div className="flex flex-col sm:flex-row items-center sm:items-start">
-              <img src="/images/client4.jpg" alt="Client 4" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
+              <img src="/images/author2.jpg" alt="Client 4" className="w-12 h-12 rounded-full mb-4 sm:mb-0 sm:mr-4" />
               <div>
                 <p className="text-gray-400 mb-4 text-sm sm:text-base">
                 "Financial planners help people understand how to invest and save money efficiently."

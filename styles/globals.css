@@ -16,7 +16,7 @@ body {
 .marquee-track {
   display: flex;
   align-items: center;
-  animation: marquee 25s linear infinite;
+  animation: marquee 15s linear infinite;
 }
 
 @keyframes marquee {
